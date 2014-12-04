@@ -1,0 +1,20 @@
+.wrapper {
+	width: 1000px;
+}
+.secondarynav {
+	width: 300px;
+	list-style-type: none;
+}
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+p {
+	line-height: 2.25em;
+}
+.generalwidth {
+	width: 1000px;
+}
+.secondarynav li {
+	list-style-type: none;
+}
