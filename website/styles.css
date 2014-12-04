@@ -8,6 +8,19 @@
 body {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 14px;
+	background-color: #00BFFF;
+	color: #900;
+}
+.secondarynav li a {
+	text-decoration: underline;
+	color: #900;
+}
+.primarynav {
+	color: #900;
+	text-decoration: underline;
+}
+.secondarynav a:hover {
+	text-decoration: none;
 }
 p {
 	line-height: 2.25em;
@@ -17,4 +30,11 @@ p {
 }
 .secondarynav li {
 	list-style-type: none;
+}
+td {
+	text-align: left;
+	vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFBF00;
 }

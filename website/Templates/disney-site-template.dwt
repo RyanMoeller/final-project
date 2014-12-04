@@ -13,13 +13,14 @@
 <!-- TemplateParam name="Park Amenities Submenu" type="boolean" value="false" -->
 <!-- TemplateParam name="On Property Transportation" type="boolean" value="false" -->
 <!-- TemplateParam name="Hotels Submenu" type="boolean" value="false" -->
+<!-- TemplateParam name="mickey-mouse-home" type="boolean" value="false" -->
 </head>
 
 <body>
 	<div class="wrapper">
     	<div class="navigation"><table>
   <tr>
-    <td class="generalwidth">Home | <a href="../parks/index.html">Parks</a> | Park Amenities | On-Property Transportation | Hotels</td>
+    <td class="generalwidth"><a href="../index.html" class="primarynav">Home</a> | <a href="../parks/index.html" class="primarynav">Parks</a> | <a href="../park-amenities/index.html" class="primarynav">Park Amenities</a> | <a href="../on-property-transport/index.html" class="primarynav">On-Property Transportation</a> | <a href="../hotels/index.html" class="primarynav">Hotels</a></td>
   </tr>
 </table>
 </div>
@@ -29,41 +30,45 @@
    					<td class="secondarynav">
 					<!-- TemplateBeginIf cond="_document['Parks Submenu']" -->
 					<ul>
-                    <li>Magic Kingdom</li>
-                    <li>EPCOT</li>
-                    <li>Hollywood Studios</li>
-                    <li>Animal Kingdom</li>
+                    <li><a href="../parks/magic-kingdom.html">Magic Kingdom</a></li>
+                    <li><a href="../parks/epcot.html">EPCOT</a></li>
+                    <li></li>
+                    <li><a href="../parks/hollywood-studios.html">Hollywood Studios</a></li>
+                    <li><a href="../parks/animal-kingdom.html">Animal Kingdom</a></li>
                     </ul>
 					<!-- TemplateEndIf -->
                     
 					<!-- TemplateBeginIf cond="_document['Park Amenities Submenu']" -->
                     <ul>
-                    <li>Extra Magic Hours</li>
-                    <li>FastPass</li>
-                    <li>FastPass Plus</li>
+                    <li><a href="../park-amenities/extra-magic-hours.html">Extra Magic Hours</a></li>
+                    <li><a href="../park-amenities/fastpass.html">FastPass</a></li>
+                    <li><a href="../park-amenities/fastpass-plus.html">FastPass Plus</a></li>
                     </ul>
 					<!-- TemplateEndIf -->
 					
 					<!-- TemplateBeginIf cond="_document['On Property Transportation']" -->
                     <ul>
-                    <li>Magical Express
-                    <li>Park Transportation</li>
-                    <li>Monorail System</li>
-                    <li>Watercraft</li>
+                    <li><a href="../on-property-transport/disney's-magical-express.html">Magical Express
+                    </a>
+                    <li><a href="../on-property-transport/park-buses.html">Park Transportation</a></li>
+                    <li><a href="../on-property-transport/monorail.html">Monorail System</a></li>
+                    <li><a href="../on-property-transport/watercraft.html">Watercraft</a></li>
                     </ul>
 					<!-- TemplateEndIf -->
 					
 					<!-- TemplateBeginIf cond="_document['Hotels Submenu']" -->
 					<ul>
-                    <li>Magic Kingdom Resorts</li>
-                    <li>EPCOT Resorts</li>
-                    <li>Animal Kingdom Resorts</li>
-                    <li>Wide World of Sports Resorts</li>
-                    <li>Downtown Disney Resorts</li>
+                    <li><a href="../hotels/magic-kingdom-resorts.html">Magic Kingdom Resorts</a></li>
+                    <li><a href="../hotels/epcot-resorts.html">EPCOT Resorts</a></li>
+                    <li><a href="../hotels/animal-kingdom-resorts.html">Animal Kingdom Resorts</a></li>
+                    <li><a href="../hotels/wide-world-of-sports-resorts.html">Wide World of Sports Resorts</a></li>
+                    <li><a href="../hotels/downtown-disney-resorts.html">Downtown Disney Resorts</a></li>
                     </ul>
-					<!-- TemplateEndIf --></td>
+					<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['mickey-mouse-home']" --><img src="../images/mickey-mouse-says-hi.jpg" width="450" height="492" /><!-- TemplateEndIf --></td>
                     
-    				<td><!-- TemplateBeginEditable name="page-content" -->page-content<!-- TemplateEndEditable --></td>
+    				<td><!-- TemplateBeginEditable name="page-content" -->
+   				    <p>page-content                  </p>
+   				  <!-- TemplateEndEditable --></td>
   				</tr>
 			</table>
 		</div>  
