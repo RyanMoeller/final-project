@@ -14,10 +14,17 @@
 <!-- TemplateParam name="On Property Transportation" type="boolean" value="false" -->
 <!-- TemplateParam name="Hotels Submenu" type="boolean" value="false" -->
 <!-- TemplateParam name="mickey-mouse-home" type="boolean" value="false" -->
+<!-- TemplateParam name="home-banner" type="boolean" value="false" -->
+<!-- TemplateParam name="parks-banner" type="boolean" value="false" -->
 </head>
 
 <body>
 	<div class="wrapper">
+    <table>
+  <tr>
+    <td><!-- TemplateBeginIf cond="_document['home-banner']" --><img src="../images/banners/home-banner.jpg" width="1000" height="250" alt="Disney Banner" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['parks-banner']" --><img src="../images/banners/parks-banner.jpg" width="1000" height="250" /><!-- TemplateEndIf --></td>
+  </tr>
+</table>
     	<div class="navigation"><table>
   <tr>
     <td class="generalwidth"><a href="../index.html" class="primarynav">Home</a> | <a href="../parks/index.html" class="primarynav">Parks</a> | <a href="../park-amenities/index.html" class="primarynav">Park Amenities</a> | <a href="../on-property-transport/index.html" class="primarynav">On-Property Transportation</a> | <a href="../hotels/index.html" class="primarynav">Hotels</a></td>
