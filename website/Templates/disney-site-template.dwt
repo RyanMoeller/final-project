@@ -16,13 +16,16 @@
 <!-- TemplateParam name="mickey-mouse-home" type="boolean" value="false" -->
 <!-- TemplateParam name="home-banner" type="boolean" value="false" -->
 <!-- TemplateParam name="parks-banner" type="boolean" value="false" -->
+<!-- TemplateParam name="amenities-banner" type="boolean" value="false" -->
+<!-- TemplateParam name="transportation-banner" type="boolean" value="false" -->
+<!-- TemplateParam name="hotels-banner" type="boolean" value="false" -->
 </head>
 
 <body>
 	<div class="wrapper">
     <table>
   <tr>
-    <td><!-- TemplateBeginIf cond="_document['home-banner']" --><img src="../images/banners/home-banner.jpg" width="1000" height="250" alt="Disney Banner" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['parks-banner']" --><img src="../images/banners/parks-banner.jpg" width="1000" height="250" /><!-- TemplateEndIf --></td>
+    <td><!-- TemplateBeginIf cond="_document['home-banner']" --><img src="../images/banners/home-banner.jpg" width="1000" height="250" alt="Disney Banner" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['parks-banner']" --><img src="../images/banners/parks-banner.jpg" width="1000" height="250" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['amenities-banner']" --><img src="../images/banners/fp-card.jpg" width="1000" height="250" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['transportation-banner']" --><img src="../images/banners/disney-bus.jpg" width="1000" height="250" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['hotels-banner']" --><img src="../images/banners/walt-disney-world-logo.jpg" width="1000" height="250" /><!-- TemplateEndIf --></td>
   </tr>
 </table>
     	<div class="navigation"><table>
@@ -50,6 +53,7 @@
                     <li><a href="../park-amenities/extra-magic-hours.html">Extra Magic Hours</a></li>
                     <li><a href="../park-amenities/fastpass.html">FastPass</a></li>
                     <li><a href="../park-amenities/fastpass-plus.html">FastPass Plus</a></li>
+                    <li><a href="../park-amenities/mymagic-plus.html">MyMagic Plus</a></li>
                     </ul>
 					<!-- TemplateEndIf -->
 					
