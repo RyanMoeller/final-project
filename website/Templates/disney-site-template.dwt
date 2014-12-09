@@ -19,13 +19,17 @@
 <!-- TemplateParam name="amenities-banner" type="boolean" value="false" -->
 <!-- TemplateParam name="transportation-banner" type="boolean" value="false" -->
 <!-- TemplateParam name="hotels-banner" type="boolean" value="false" -->
+<!-- TemplateParam name="magic-kingdom-banner" type="boolean" value="false" -->
+<!-- TemplateParam name="epcot-banner" type="boolean" value="false" -->
+<!-- TemplateParam name="studios-banner" type="boolean" value="false" -->
+<!-- TemplateParam name="animal-kingdom-banner" type="boolean" value="false" -->
 </head>
 
 <body>
 	<div class="wrapper">
     <table>
   <tr>
-    <td><!-- TemplateBeginIf cond="_document['home-banner']" --><img src="../images/banners/home-banner.jpg" width="1000" height="250" alt="Disney Banner" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['parks-banner']" --><img src="../images/banners/parks-banner.jpg" width="1000" height="250" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['amenities-banner']" --><img src="../images/banners/fp-card.jpg" width="1000" height="250" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['transportation-banner']" --><img src="../images/banners/disney-bus.jpg" width="1000" height="250" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['hotels-banner']" --><img src="../images/banners/walt-disney-world-logo.jpg" width="1000" height="250" /><!-- TemplateEndIf --></td>
+    <td><!-- TemplateBeginIf cond="_document['home-banner']" --><img src="../images/banners/home-banner.jpg" width="1000" height="250" alt="Disney Banner" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['parks-banner']" --><img src="../images/banners/parks-banner.jpg" width="1000" height="250" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['amenities-banner']" --><img src="../images/banners/fp-card.jpg" width="1000" height="250" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['transportation-banner']" --><img src="../images/banners/disney-bus.jpg" width="1000" height="250" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['hotels-banner']" --><img src="../images/banners/walt-disney-world-logo.jpg" width="1000" height="250" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['magic-kingdom-banner']" --><img src="../images/banners/magic-kingdom-alternate.jpg" width="1000" height="250" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['epcot-banner']" --><img src="../images/banners/epcot-banner.jpg" width="1000" height="250" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['studios-banner']" --><img src="../images/banners/studios-banner.jpg" width="1000" height="250" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['animal-kingdom-banner']" --><img src="../images/banners/animal-kingdom-alternate.jpg" width="1000" height="250" /><!-- TemplateEndIf --></td>
   </tr>
 </table>
     	<div class="navigation"><table>
