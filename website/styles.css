@@ -31,6 +31,9 @@ p {
 .secondarynav li {
 	list-style-type: none;
 }
+table {
+	border-collapse: collapse;
+}
 td {
 	text-align: left;
 	vertical-align: top;
