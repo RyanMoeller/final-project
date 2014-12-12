@@ -24,6 +24,7 @@ body {
 }
 p {
 	line-height: 2.25em;
+	padding-left: 5px;
 }
 .generalwidth {
 	width: 1000px;

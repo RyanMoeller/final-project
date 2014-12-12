@@ -34,7 +34,7 @@
 </table>
     	<div class="navigation"><table>
   <tr>
-    <td class="generalwidth"><a href="../index.html" class="primarynav">Home</a> | <a href="../parks/index.html" class="primarynav">Parks</a> | <a href="../park-amenities/index.html" class="primarynav">Park Amenities</a> | <a href="../on-property-transport/index.html" class="primarynav">On-Property Transportation</a> | <a href="../hotels/index.html" class="primarynav">Hotels</a></td>
+    <td class="generalwidth"><a href="../index.html" class="primarynav">Home</a> | <a href="../parks/index.html" class="primarynav">Parks</a> | <a href="../park-amenities/index.html" class="primarynav">Park Amenities</a> | <a href="../on-property-transport/index.html" class="primarynav">Transportation</a> | <a href="../hotels/index.html" class="primarynav">Hotels</a></td>
   </tr>
 </table>
 </div>
@@ -81,7 +81,7 @@
                     </ul>
 					<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['mickey-mouse-home']" --><img src="../images/mickey-mouse-says-hi.jpg" width="450" height="492" /><!-- TemplateEndIf --></td>
                     
-    				<td><!-- TemplateBeginEditable name="page-content" -->
+    				<td class="content"><!-- TemplateBeginEditable name="page-content" -->
    				    <p>page-content                  </p>
    				  <!-- TemplateEndEditable --></td>
   				</tr>
